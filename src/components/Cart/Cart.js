@@ -3,9 +3,9 @@ import "./Cart.css";
 
 const Cart = ({cart}) => {
   return (
-    <div>
+    <div className="cart">
       <h1 className="summary-text">Order Summary</h1>
-      <div className="cart">
+      <div>
         <p>Selected Items: {cart.length}</p>
       </div>
     </div>
